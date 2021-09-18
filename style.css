@@ -1,0 +1,134 @@
+*{margin:0;
+padding:0;
+box-sizing: border-box;}
+
+html{scroll-padding-top: 70px;}
+
+body{background: #ced4da;
+}
+
+.horizontal-line{
+border: 2px solid #ffffff;}
+
+.all-section-header{
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin-top: 3vw;
+  margin-bottom: 2vw;
+  text-align: center;
+}
+
+
+/*Home section*/
+.home-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  color:black;
+}
+.home-heading{
+  position: absolute;
+  font-size: 2.5vw;
+}
+.home-img{
+  opacity:0.7;
+}
+
+/*About me*/
+.img-text-about{
+  display: flex;
+}
+
+.profile-img {
+ border: 2px solid #6f42c1;
+ margin-bottom: 18px;
+ border-radius: 5px;
+ max-width: 20%;
+}
+
+.text {
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+.cv-button{
+  margin-bottom: 2vw;
+}
+
+@media only screen and (max-width: 767px) {
+  .img-text-about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .profile-img{
+    max-width: 50%;
+  }
+}
+
+/*Skills section*/
+.skills-section{
+  display: flex;
+  justify-content: center;
+}
+
+
+figure {
+    border: 2px solid #6f42c1;
+    margin: 30px;
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    border: 1px dotted blue;
+    text-align: center;
+}
+
+/*Portfolio section*/
+.portfolio-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*Speaker Bootstrap*/
+.speaker-container{
+  width: 65%;
+  border: 2px solid #212529;
+  margin: 10px auto;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.speaker-header{
+  display:flex;
+  justify-content: center;
+  font-family: "Freestyle Script";
+}
+
+.row{
+width: 95%;
+display: flex;
+justify-content: center;
+margin: auto;
+}
+
+
+/*social link*/
+.social{
+  display: flex;
+  flex-direction: column;
+  padding:10px 20px;
+}
+.social-item{
+  display: flex;
+  justify-content: center;
+  margin-top: 2px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  height: 18px;
+}
